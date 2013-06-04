@@ -1,6 +1,0 @@
-#どなやいや
-
-##hogehoge
-
-*hogehoge*
-
