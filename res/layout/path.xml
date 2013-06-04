@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menu1" android:src="@drawable/icon_reflection_none_red"
+                android:layout_gravity="center"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/menu2"
+                   android:src="@drawable/icon_reflection_arrow_red"
+                   android:layout_gravity="center"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/menu3"
+                   android:src="@drawable/icon_reflection_exclamation_red"
+                   android:layout_gravity="center"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/menu4"
+                   android:src="@drawable/icon_reflection_home_red"
+                   android:layout_gravity="center"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/menu5"
+                   android:src="@drawable/icon_reflection_heart_red"
+                   android:layout_gravity="center"/>
+    <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/menuBase"
+                android:background="@drawable/icon_base"
+                android:layout_gravity="center"/>
+</FrameLayout>
+
